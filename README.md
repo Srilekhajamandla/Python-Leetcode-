@@ -124,7 +124,7 @@ This repository contains a few beginner-friendly LeetCode problems. These questi
 
 ### Problem Statement:
 - Given an integer array nums, choose two different indices i and j and return the maximum value of
-
+(nums[i]−1)∗(nums[j]−1)
 
 
 ### Core Idea:
