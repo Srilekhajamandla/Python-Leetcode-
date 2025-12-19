@@ -118,7 +118,139 @@ This repository contains a few beginner-friendly LeetCode problems. These questi
 
 - Return the final XOR result.
 
+## 1️⃣ 1464. Maximum Product of Two Elements in an Array
 
+- Difficulty: Easy
+
+### Problem Statement:
+- Given an integer array nums, choose two different indices i and j and return the maximum value of
+
+
+
+### Core Idea:
+
+- Identify the two largest elements in the array
+
+- Subtract 1 from each
+
+- Compute the product
+
+### Key Skills Demonstrated:
+
+- Greedy selection
+
+- Array scanning
+
+- Optimization without sorting
+
+## 2️⃣ 1395. Count Number of Teams
+
+- Difficulty: Medium
+
+### Problem Statement:
+- Given unique soldier ratings, count the number of valid teams of size 3 such that:
+
+- Ratings are strictly increasing or
+
+- Ratings are strictly decreasing with indices i < j < k.
+
+### Core Idea:
+
+- Fix a middle soldier
+
+- Count smaller and larger elements on both sides
+
+- Combine counts to form valid triplets
+
+### Key Skills Demonstrated:
+
+- Nested iteration with constraints
+
+- Combinatorial counting
+
+- Pattern recognition (increasing vs decreasing sequences)
+
+## 3️⃣ 1450. Number of Students Doing Homework at a Given Time
+
+- Difficulty: Easy
+
+### Problem Statement:
+- Given startTime, endTime, and queryTime, return how many students are doing homework at queryTime.
+
+### Core Idea:
+
+- Iterate through students
+
+- Check if queryTime lies in the inclusive interval
+
+
+### Key Skills Demonstrated:
+
+- Interval validation
+
+- Linear scanning
+
+- Condition-based counting
+
+## 4️⃣ 1342. Number of Steps to Reduce a Number to Zero
+
+- Difficulty: Easy
+
+### Problem Statement:
+- Reduce a number to zero using:
+
+- Divide by 2 if even
+
+- Subtract 1 if odd
+  
+- Return the number of steps.
+
+### Core Idea:
+
+- Repeatedly apply rules until the number becomes zero
+
+- Maintain a step counter
+
+### Key Skills Demonstrated:
+
+- Loop control
+
+- Even/odd logic
+
+- Simulation-based problem solving
+
+## 5️⃣ 338. Counting Bits
+
+- Difficulty: Easy
+
+### Problem Statement:
+- For a given integer n, return an array where each index i contains the count of 1s in the binary representation of i.
+
+### Core Idea:
+
+- Build results incrementally from 0 to n
+
+- Leverage previous computations (dynamic programming)
+
+### Key Skills Demonstrated:
+
+- Bit manipulation
+
+- Dynamic programming mindset
+
+- Binary number understanding
+
+### 🛠️ Tech Stack
+
+- Language: Python
+
+- Paradigm: Iterative, Greedy, Dynamic Programming
+
+### Complexity Focus:
+
+- Time: O(n), O(n²) where required
+
+- Space: Optimized, minimal auxiliary usage
 
 
 ## ▶️ How to Use
